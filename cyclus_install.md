@@ -2,7 +2,7 @@
     1. `git clone git@github.com:cyclus/cyclus.git`
     1. `git clone git@github.com:cyclus/cycamore.git`
     1. `git clone git@github.com:cyclus/cymetric.git`
-1. Make a conda environment called Cyclus
+1. Make a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) called Cyclus
     1. `echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc`
     1. `source ~/.bashrc`
     1. `conda config --add channels conda-forge`
