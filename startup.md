@@ -22,3 +22,11 @@ So, you're starting up a new machine, here's what you need to do (mostly in orde
     1. `git clone git@github.com:nsryan/CV.git`
 1. Follow any of the other install guides/scripts that you're working with
 1. Install Slack (I know, it's a headache)
+1. Install Zotero
+    1. [Download](https://www.zotero.org/download/) it
+    1. Move it to ~/ or wherever, and extract it.
+    1. Enter, and run `bash set_launcher_icon`
+    1. Then link it with `ln -s ~/Zotero/zotero.desktop ~/.local/share/applications/zotero.desktop`
+    1. There should now be the logo in applications, and you can open it.
+    1. Click sync and login in the same way you would in the browser.
+        1. Make sure you don't have it download everything automatically, only as needed,
