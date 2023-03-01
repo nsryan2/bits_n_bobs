@@ -6,8 +6,9 @@
     1. `sudo ufw allow 22`
 1. on your laptop go to `~/.ssh/config` and create a new item
     with the form:
-    """
+
+    ```
     Host <name of computer>
       Hostname <inet>
       User nsryan
-    """
+    ```
