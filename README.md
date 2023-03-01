@@ -36,10 +36,10 @@ python -m unittest path/to/test.py
 
 ## Accesibility
 * Short Tol Colors (3 things): `mycolors = ["#332288", "#117733", "#AA4499"]`
-* Med Tol Colors (4 things):  `mycolors = ["#332288", "#117733", "#44AA99", "#A$
-* Med Tol Colors (5 things):  `mycolors = ["#332288", "#117733", "#88CCEE", "#C$
-* IBM Colors (5 things): `mycolors = ["#FFB000", "#648FFF", "#FE6100", "#785EF0$
-* Tol Colors (8 things): `mycolors = ["#332288", "#117733", "#44AA99", "#88CCEE$
+* Med Tol Colors (4 things):  `mycolors = ["#332288", "#117733", "#44AA99", "#AA4499"]`
+* Med Tol Colors (5 things):  `mycolors = ["#332288", "#117733", "#88CCEE", "#CC6677", "#AA4499"]`
+* IBM Colors (5 things): `mycolors = ["#FFB000", "#648FFF", "#FE6100", "#785EF0", "#DC267F"]`
+* Tol Colors (8 things): `mycolors = ["#332288", "#117733", "#44AA99", "#88CCEE", "#DDCC77", "#CC6677", "#AA4499", "#882255"]`
 
 
 ## UIUC HEX Codes
