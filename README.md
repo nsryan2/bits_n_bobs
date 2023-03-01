@@ -51,9 +51,11 @@ U of I Blue: 13294b
 In you .ssh/config file you can save shortcuts to computers and
 clusters in the form:
 
+```
 Host <name>
   Hostname <Address>
   User <username>
+```
 
 Instead of typing:
 
@@ -72,9 +74,10 @@ echo $PATH
 ```
 And it should be empty because you deleted it, idiot. So, run this:
 ```
-export PATH=$PATH="/home/nsryan/anaconda3/bin:/home/nsryan/anaconda3/condabin:/$
+export PATH=$PATH="/home/nsryan/anaconda3/bin:/home/nsryan/anaconda3/condabin:/home/nsryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 ```
 If you got rid of the temoa-py3 env PATH, run this:
 ```
-export PATH=$PATH"/home/nsryan/anaconda3/envs/temoa-py3/bin:/home/nsryan/anacon$
+export PATH=$PATH"/home/nsryan/anaconda3/envs/temoa-py3/bin:/home/nsryan/anaconda3/condabin:/home/nsryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+
 ```
