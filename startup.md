@@ -30,3 +30,4 @@ So, you're starting up a new machine, here's what you need to do (mostly in orde
     1. There should now be the logo in applications, and you can open it.
     1. Click sync and login in the same way you would in the browser.
         1. Make sure you don't have it download everything automatically, only as needed,
+    1. Install docker, and add it with [group permissions](https://docs.docker.com/engine/install/linux-postinstall/) 
