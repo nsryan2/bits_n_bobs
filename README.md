@@ -81,3 +81,10 @@ If you got rid of the temoa-py3 env PATH, run this:
 export PATH=$PATH"/home/nsryan/anaconda3/envs/temoa-py3/bin:/home/nsryan/anaconda3/condabin:/home/nsryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
 ```
+
+## Grep
+[Read more](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/), but generally the vibe is you can search files and directories for instances from the command line.
+
+```
+grep '<thing you want to search>' <file you want to search>
+```
