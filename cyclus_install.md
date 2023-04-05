@@ -2,6 +2,9 @@
     1. `git clone git@github.com:cyclus/cyclus.git`
     1. `git clone git@github.com:cyclus/cycamore.git`
     1. `git clone git@github.com:cyclus/cymetric.git`
+    1. `git remote add nathan git@github.com:nsryan2/cycamore.git`
+    1. `git remote add nathan git@github.com:nsryan2/cymetric.git`
+    1. `git remote add nathan git@github.com:nsryan2/cyclus.git`
 1. Make a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) called Cyclus
     1. `echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc`
     1. `source ~/.bashrc`
