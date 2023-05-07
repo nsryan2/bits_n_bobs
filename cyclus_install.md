@@ -21,3 +21,4 @@
     1. Build the install image `docker build -t cyclus-local-install -f docker/cyclus-ci/Dockerfile .`
     **Don’t tag the dependency and actual images the same thing (that’s what the -t does)**
 1. Run the docker image `docker run -it cyclus-local-install /bin/bash`
+1.  Install [auto tag complete](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
