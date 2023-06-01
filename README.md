@@ -1,5 +1,5 @@
 # bits_n_bobs
-The minutiae of my computational stuff
+The minutiae of my computational stuff.
 
 ## OS Things I learned
 
