@@ -17,7 +17,7 @@
     1. [cycamore](https://github.com/cyclus/cycamore#quick-cycamore-installation)
     1. [cymetric](https://github.com/cyclus/cymetric#readme)
 1. Build the docker image:
-    1. Build the dependencies `docker build -t cyclus-local -f docker/cyclus-dep/Dockerfile .`
+    1. Build the dependencies `docker build -t cyclus-local -f docker/cyclus-deps/Dockerfile .`
     1. Build the install image `docker build -t cyclus-local-install -f docker/cyclus-ci/Dockerfile .`
     **Don’t tag the dependency and actual images the same thing (that’s what the -t does)**
 1. Run the docker image `docker run -it cyclus-local-install /bin/bash`
