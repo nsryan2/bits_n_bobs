@@ -17,8 +17,9 @@
     1. [cycamore](https://github.com/cyclus/cycamore#quick-cycamore-installation)
     1. [cymetric](https://github.com/cyclus/cymetric#readme)
 1. Build the docker image:
-    1. Build the dependencies `docker build -t cyclus-local -f docker/cyclus-deps/Dockerfile .`
-    1. Build the install image `docker build -t cyclus-local-install -f docker/cyclus-ci/Dockerfile .`
+    1. Start the docker deamon (`sudo launchctl start docker` for mac and `sudo systemctl start docker` for linux)
+    2. Build the dependencies `docker build -t cyclus-local -f docker/cyclus-deps/Dockerfile .`
+    3. Build the install image `docker build -t cyclus-local-install -f docker/cyclus-ci/Dockerfile .`
     **Don’t tag the dependency and actual images the same thing (that’s what the -t does)**
 1. Run the docker image `docker run -it cyclus-local-install /bin/bash`
 1.  Install [auto tag complete](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
