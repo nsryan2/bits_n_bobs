@@ -160,3 +160,8 @@ gitGraph:
     branch b2
     commit
 ```
+
+## Adding Conda envs to jupyter notebook
+Make sure you deactivate your conda env before doing this.
+1. install ipykernel `conda install -c anaconda ipykernel`
+1. run this `python -m ipykernel install --user --name=ENVNAME` 
