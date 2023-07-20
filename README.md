@@ -15,6 +15,12 @@ code <filename>
 sudo iftop -B
 ```
 
+To print the output of a terminal command to a .txt file, try
+
+```
+SomeCommand 2>&1 | tee SomeFile.txt
+```
+
 
 ## Different Test Suites
 People have different preferences on their testing suites, so here are some
