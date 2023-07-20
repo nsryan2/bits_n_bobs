@@ -65,6 +65,11 @@ ssh <username>@<address>
 
 To close out of an ssh session type: `~` and then `.`
 
+You can check who is connected to a machine by running: 
+
+```
+who -u
+```
 
 ## Default PATH Variable
 
