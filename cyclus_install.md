@@ -22,7 +22,5 @@
     3. Build the install image `docker build -t cyclus-local-install -f docker/cyclus-ci/Dockerfile .`
     **Don’t tag the dependency and actual images the same thing (that’s what the -t does)**
 1. Run the docker image `docker run -it cyclus-local-install /bin/bash`
-1.  Install [auto tag complete](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-1. For analysis install [Pyne](https://anaconda.org/conda-forge/pyne)
-1.  If you have trouble with HDF5, follow these [instructions](https://askubuntu.com/questions/1340411/installing-hdf5) with [HDF5-1.8.4](https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8/hdf5-1.8.4/src/hdf5-1.8.4.tar.gz)
-1.  If you're having trouble upgrading your conda install from 23.5.1 to 23.5.2 follow [these steps](https://github.com/conda/conda/issues/9469#issuecomment-1635769137)
+1. Install [auto tag complete](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+1. Run `cyclus -a` to see which archeytypes are installed.
