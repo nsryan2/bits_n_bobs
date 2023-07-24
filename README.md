@@ -173,6 +173,7 @@ gitGraph:
 ```
 
 ## Conda Envs 
+Your question can probably be answered [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#managing-environments).
 
 ### Sharing an Env
 
