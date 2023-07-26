@@ -7,4 +7,7 @@
 import sys
 sys.path.insert(0, '/home/nsryan/Desktop/arfc/transition-scenarios/scripts')
 ```
-
+1. Some tables will be too big to analyze, so you can export them as a csv by using
+```
+sqlite3 -header -csv your_database_name "select * from TABLE_NAME;" > TABLE_NAME.csv
+```
