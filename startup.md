@@ -25,7 +25,7 @@ So, you're starting up a new machine, here's what you need to do (mostly in orde
 1. Install Zotero
     1. [Download](https://www.zotero.org/download/) it
     1. Move it to ~/ or wherever, and extract it.
-    1. Enter, and run `bash set_launcher_icon`
+    1. Enter, and run `bash zotero` then `bash set_launcher_icon`
     1. Then link it with `ln -s ~/Zotero/zotero.desktop ~/.local/share/applications/zotero.desktop`
     1. There should now be the logo in applications, and you can open it.
     1. Click sync and login in the same way you would in the browser.
@@ -38,4 +38,4 @@ So, you're starting up a new machine, here's what you need to do (mostly in orde
     1. Test it with `sudo docker run hello-world`
     1. If that doesn’t work add docker with [group permissions](https://docs.docker.com/engine/install/linux-postinstall/)
     1. Then `sudo chmod 666 /var/run/docker.sock`
-1.  
+1.
