@@ -1,6 +1,6 @@
-Git/GitHub Review Points
+# Git/GitHub Review Points
 
-Git season 3 top 1
+## Git season 3 top 1
 * Checkout https://swcarpentry.github.io/git-novice/ 
 * Use git bash if you’re on windows (anaconda power-shell is also a good replacement)
 * Consider making a repo of config files and looking into chaining your top directory 
@@ -15,7 +15,7 @@ Git season 3 top 1
 * Never nest original git repos inside another git repo
 
 
-Git part 2 electric boogaloo
+## Git part 2 electric boogaloo
 * Always develop on a branch other than main/master
   *   Commits should only be added to that branch through a PR that someone else approves and merges
   *   Learn more about branches here https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches 
@@ -38,7 +38,7 @@ Git part 2 electric boogaloo
 *The convention <> means that you replace everything, including the angle brackets with the word for the a custom thing like the name of a specific branch.
 
 
-Breaking 3: The Git Resurgence
+## Breaking 3: The Git Resurgence
 * `git branch -v` tells you the most recent commit for each branch
 * Remember, whatever you do in git 99% of the time you can undo it with a little help. Your log will look a little funny, but it will work
 * Now, if we push this branch from our computer to GitHub with `git push origin <branch name>`, it will show up as a branch on the GitHub repo (not on main)
