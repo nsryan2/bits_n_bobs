@@ -12,3 +12,19 @@ else
     PS1="${debian_chroot:+($debian_chroot)}nsryan2@mac:\w\$(parse_git_branch) $"
 fi
 unset color_prompt force_color_prompt
+
+truncate_pwd() {
+    local dir=$(pwd)
+    local dir_parts
+    IFS='/' read -ra dir_parts <<< "$dir"
+    local dir_count=${#dir_parts[@]}
+
+    if [ "$dir_count" -le 4 ]; then
+        echo "$dir"
+    else
+        local truncated_dir=".../${dir_parts[-3]}/${dir_parts[-2]}/${dir_parts[-1]}"
+        echo "$truncated_dir"
+    fi
+}
+
+export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\$(truncate_pwd)\[\033[00m\]\$(parse_git_branch)\$ "
