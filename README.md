@@ -71,10 +71,24 @@ ssh <username>@<address>
 
 To close out of an ssh session type: `~` and then `.`
 
-You can check who is connected to a machine by running: 
+You can check who is connected to a machine by running:
 
 ```
 who -u
+```
+
+### SCP
+
+So you want to send something from your computer to your remote, try scp
+
+```
+scp <filename.extension> <user>@<ssh host name>:/path/to/where/you/want/file.extension
+```
+
+Conversely, you can receive files with
+
+```
+scp <username>@<remote>:/file/to/send/file.extension /where/to/put/file.extension
 ```
 
 ## Default PATH Variable
@@ -172,7 +186,7 @@ gitGraph:
     commit
 ```
 
-## Conda Envs 
+## Conda Envs
 Your question can probably be answered [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#managing-environments).
 
 ### Sharing an Env
@@ -191,4 +205,4 @@ To make an env from such a file, just run `conda env create -f environment.yml`
 
 Make sure you deactivate your conda env before doing this.
 1. install ipykernel `conda install -c anaconda ipykernel`
-1. run this `python -m ipykernel install --user --name=ENVNAME` 
+1. run this `python -m ipykernel install --user --name=ENVNAME`
