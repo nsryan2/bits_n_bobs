@@ -22,7 +22,7 @@ To specify the input file
 
 To specify the output file
 ```
-> cyclus -i <output.file>
+> cyclus -i <input.file> -o <output.file>
 ```
 
 To see the archetypes you have installed
