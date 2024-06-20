@@ -13,3 +13,37 @@
   sqlite3 -header -csv your_database_name "select * from TABLE_NAME;" > TABLE_NAME.csv
   ```
    * You can select out a specific year by saying "select * from TABLE_NAME where yesr=2001;" or any other column.
+
+## Tags you can use on your run
+To specify the input file
+```
+> cyclus -i <input.file>
+```
+
+To specify the output file
+```
+> cyclus -i <output.file>
+```
+
+To see the archetypes you have installed
+```
+> cyclus --agent-listing
+```
+You can also use `-a` instead or pass `:cycamore` in addition to get the same effect or see archetypes from a specific source.
+
+To see the docstrings for a specific archetype
+```
+> cyclus --agent-annotations :agents:Source
+```
+
+To see the schema for a specific archetype
+```
+> cyclus --agent-schema :agents:Source
+```
+
+To get more information on a cyclus run
+```
+> cyclus -v <number>
+```
+*I think the number can be from 1-10*
+
