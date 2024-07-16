@@ -21,6 +21,11 @@ To print the output of a terminal command to a .txt file, try
 SomeCommand 2>&1 | tee SomeFile.txt
 ```
 
+To reboot your machine, run
+
+```
+sudo reboot
+```
 
 ## Accesibility
 * Short Tol Colors (3 things): `mycolors = ["#332288", "#117733", "#AA4499"]`
