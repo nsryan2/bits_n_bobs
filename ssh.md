@@ -28,7 +28,7 @@ On the new device, run:
 Now you'll be able to connect from any machine so long as you remember the username, password, and ip address.
 
 ### Creating a Shortcut
-If the task of remembering the ip address is annoying to you, you can create a shortcut on your machine. Access the `~/.ssh/config` file so that you can save shortcuts to computers and clusters in the form:
+If the task of remembering the ip address is annoying to you, you can create a shortcut on your machine. Access the `/etc/ssh/ssh_config` (for machine-wide) or `~/.ssh/config` (for just your user) file so that you can save shortcuts to computers and clusters in the form:
 
 ```
 Host <shortcut>
